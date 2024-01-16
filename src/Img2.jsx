@@ -1,3 +1,5 @@
+import Iconbas from './Iconbas'
+
 function Img2 (props){
     return (
         <>
@@ -10,7 +12,7 @@ function Img2 (props){
                                   New Jersey, Connecticut, Pennsent plutôt rares à 
                                    Bruxelles, le Hip-Hop était loin de la
                                    place qu’il occupe aujourd’hui. " Le grou
-                                  pe CNN  </p> </div>
+                                  pe CNN  </p> <Iconbas/></div>
         
         </>
 

@@ -10,6 +10,7 @@ import Img1 from './Img1'
 import Img2 from './Img2'
 import Img3 from './Img3'
 import Img4 from './Img4'
+import Iconbas from './Iconbas'
 
 function App() {
   const [count, setCount] = useState(0)

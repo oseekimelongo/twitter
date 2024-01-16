@@ -1,3 +1,4 @@
+import Iconbas from './Iconbas'
 function Img1 (props){
     return (
         <>
@@ -9,7 +10,7 @@ function Img1 (props){
 
          <div>
           <h3> CNN:</h3>
-                  <p>CNN est un groupe emblématique du Hip-Hop bruxellois. 
+                  <p>CNN est un gryudydyttoupe emblématique du Hip-Hop bruxellois. 
                         Il est apparu à une époque où les activistes
                         étaient plutôt rares à 
                         Bruxelles, le Hip-Hop était loin de la
@@ -20,8 +21,8 @@ function Img1 (props){
                         un groupe autour de ma bande de potes, on était 
                         une bande de gamin, on taguait partout ! On avait besoin d’une 
                         bannière à nous, c’est pour ça que j’ai 
-                        créé CNN. On était déchaîné, </p>
-</div> 
+                        créé CNN. On était déchaîné, </p> <Iconbas/>
+</div>
         </>
 
         

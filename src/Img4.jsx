@@ -1,3 +1,5 @@
+import Iconbas from './Iconbas'
+
 function Tweet (props){
     return (
         <>
@@ -15,7 +17,7 @@ function Tweet (props){
                                     New Jersey, Connecticut, Pennsylvanie) et quelque 
                                     17 400 km2 . Sa population est de 18,8 millions
                                      d'h abitants ...
-                         </p>
+                         </p><Iconbas/>
           </div>
 
         </>

@@ -1,3 +1,5 @@
+import Iconbas from './Iconbas'
+
 function Img3 (props){
     return (
         <>
@@ -23,7 +25,9 @@ The news york times
 
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpbNBk-bsgqdwsDYxA64Aw5Hp2GgohrG-hrg&usqp=CAU" alt="" className="lili"/>
-         
+      <div>
+        <Iconbas/>
+      </div>   
 </div>
           
         </>

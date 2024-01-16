@@ -3,7 +3,7 @@
   margin: 0 ;
   list-style: none;
   font-family: 'Montserrat', sans-serif;
-  background: #333;
+  background: #05080b;
 }
 
 
@@ -18,12 +18,20 @@
 .partie1{
   padding-left: 30px;
   margin: auto;
+
 }
 .text1{
   display: flex;
   border: 2px solid rgb(123, 116, 116);
 }
 
+.iconbas{
+
+  display: flex;
+  justify-content: space-around;
+  padding-top:15px;
+
+}
 
 h1 {
   color: white;
@@ -64,7 +72,7 @@ padding-top:20px;
  padding-left: 30px;
  
 }
-.iconsmedia{
+.ico{
 
 }
 
@@ -74,10 +82,11 @@ padding-top:20px;
 
 
 
-#butt{
-display: flex;
+#twi{
+  padding-left: 50rem;
+  padding-bottom: 1rem;
+  }
 
-}
 
 input{
  
@@ -85,8 +94,8 @@ input{
   color : #fff ;
   border:none ;
   border-radius:10px ;
-  min-height:30px ;
-  min-width : 70px;
+  height:30px ;
+  width : 70px;
 }
 
 /* deuxieme ligne */
@@ -144,11 +153,11 @@ input{
   padding-left: 1090px;
 
 }
-
+USER-4-C2
 
 .lili{
-  width: 500px;
-  height: 200px;
+  width: 700px;
+  height: 350px;
   border-radius: 10%;
   padding-left: 40px;
   
@@ -167,6 +176,12 @@ input{
  
  
 }
+.block1{
+  display: flex;
+  padding-left: 25px;
+  padding-top :90px; 
+  }
+
 
 
 p{
@@ -223,8 +238,16 @@ img {
     padding-left: 81%;
     padding-top: 0.5rem;
     font-size: 1%;
+    
   
   }
+
+  .block1{
+    display: flex;
+    padding-left: 25px;
+    padding-top :50px; 
+   
+    }
 
   img{
       width : 50px; height : 50px;
@@ -239,13 +262,12 @@ img {
        
   }
 
-  #butt{
+  #twi{
     padding-left: 27rem;
-    padding-top: 5rem;
+    padding-bottom: 1rem;
     }
+
     input{
-    
-      
       background-color: #1DA1F2 ;
       color : #fff ;
       border:none ;

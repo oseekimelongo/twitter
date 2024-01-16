@@ -1,5 +1,6 @@
 import Iconsmedia from './Iconsmedia';
 import Input from './Input'
+import Iconbas from './Iconbas'
 
 
 function Img (props){
@@ -10,16 +11,13 @@ function Img (props){
           </div>
           <div>
           <p>
-          what's happennin
-          </p>
-
-<div className="iconebutt">
-       
-            <div id="butt"> <Iconsmedia/> 
-            <Input butt="tweet"/>
-            </div> 
-            </div>
-            </div>
+          What's happennin
+          </p>  <div className='block1'><Iconsmedia/> <Input className='twi'/>
+          </div> 
+         <div>
+         </div>
+        </div>
+            
             
         </>
 

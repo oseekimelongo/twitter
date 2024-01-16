@@ -3,12 +3,12 @@ function Input (props){
         <>
 
 <butt> {props.butt} </butt>
-       
+      <div id='twi'>
     <input 
       type="button"
       value="Tweet"
     />
-        
+        </div> 
         </>
       
     )
