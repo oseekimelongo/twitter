@@ -1,4 +1,5 @@
 import Iconbas from './Iconbas'
+import Iconverfied from './Iconverfied'
 function Img1 (props){
     return (
         <>
@@ -9,7 +10,7 @@ function Img1 (props){
           </div>
 
          <div>
-          <h3> CNN:</h3>
+          <h3> CNNi<Iconverfied/>:</h3>
                   <p>CNN est un gryudydyttoupe emblématique du Hip-Hop bruxellois. 
                         Il est apparu à une époque où les activistes
                         étaient plutôt rares à 

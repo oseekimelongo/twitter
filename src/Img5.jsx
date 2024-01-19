@@ -1,19 +1,17 @@
 import Iconbas from './Iconbas'
 import Iconverfied from './Iconverfied'
 
-function Tweet (props){
+function Img5 (props){
     return (
         <>
 <div className="img">
-          <img src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAwSj-ji9_7FMplNiYJFcSm-AM773Q54R3Uw&usqp=CAU"} />
+          <img src={"https://logowik.com/content/uploads/images/cnn-espanol7755.jpg"} />
           </div>
 
           <div>
                     <h4> 
-                            Ttimes
-
-                            <Iconverfied/>
-                    </h4>
+                            Ttimes<Iconverfied/>
+                    </h4> 
 
                         <p>
                                     Cette région s'étend sur quatre États (New York, 
@@ -30,4 +28,4 @@ function Tweet (props){
     )
 }
 
-export default Tweet;
+export default Img5;

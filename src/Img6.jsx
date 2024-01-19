@@ -1,7 +1,7 @@
 import Iconbas from './Iconbas'
 import Iconverfied from './Iconverfied'
 
-function Tweet (props){
+function Img6 (props){
     return (
         <>
 <div className="img">
@@ -11,7 +11,6 @@ function Tweet (props){
           <div>
                     <h4> 
                             Ttimes
-
                             <Iconverfied/>
                     </h4>
 
@@ -30,4 +29,4 @@ function Tweet (props){
     )
 }
 
-export default Tweet;
+export default Img6;
