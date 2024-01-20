@@ -17,6 +17,15 @@ import Iconverfied from './Iconverfied'
 import Iconbas from './Iconbas'
 import Menu_0 from './Menu_0'
 import Menu_1 from './Menu_1'
+import Menu_2 from './Menu_2'
+import Menu_3 from './Menu_3'
+import Menu_4 from './Menu_4'
+import Menu_5 from './Menu_5'
+import Menu_6 from './Menu_6'
+import Menu_7 from './Menu_7'
+import Menu_80 from './Menu_80'
+import BpTwitte from './BpTwitte'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,12 +33,61 @@ function App() {
   return (
     <>
    
+<div>
+<div className='sb'>
+<div className='sc'>
+<div>
+                 <div>
+                 <Menu_0/>
+                 </div>
 
-<div className='s1'>
-<Menu_0/>
-    </div> 
+                  <div>
+                 <Menu_80/>
+                 </div>
 
- 
+                 <div>
+                 <Menu_1/>
+                 </div>
+
+                 </div> 
+                 <Menu_2/>
+                 <div>
+                 <Menu_3/>
+                 </div>
+                 <div>
+                 <Menu_4/>
+                 </div>
+                 <div>
+                 <Menu_5/>
+                 </div>
+                 <div>
+                 <Menu_6/>
+                 </div>
+                 <div>
+                 <Menu_7/>
+                 </div>
+          
+
+                 <br />
+
+               
+
+                <BpTwitte/>
+
+                
+
+                 <br />
+                 <br />
+                 <br />
+                 <br />
+                 <br />
+                 <br />
+                 <br />
+                 <br />
+                 <br />
+</div>
+</div>
+</div>
 
    
     <div className='debut'>
