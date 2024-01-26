@@ -15,16 +15,14 @@ import Img6 from './Img6'
 import Img7 from './Img7'
 import Iconverfied from './Iconverfied'
 import Iconbas from './Iconbas'
-import Menu_0 from './Menu_0'
-import Menu_1 from './Menu_1'
-import Menu_2 from './Menu_2'
-import Menu_3 from './Menu_3'
-import Menu_4 from './Menu_4'
-import Menu_5 from './Menu_5'
-import Menu_6 from './Menu_6'
-import Menu_7 from './Menu_7'
-import Menu_80 from './Menu_80'
-import BpTwitte from './BpTwitte'
+import But from './But'
+import { BrowserRouter as Router, Routes,Route } from 'react-router-dom'
+
+
+import Basp from './Basp'
+import Navbar from './Navbar'
+
+
 
 
 function App() {
@@ -33,93 +31,71 @@ function App() {
   return (
     <>
    
-<div>
-<div className='sb'>
-<div className='sc'>
-<div>
-                 <div>
-                 <Menu_0/>
-                 </div>
 
-                  <div>
-                 <Menu_80/>
-                 </div>
-
-                 <div>
-                 <Menu_1/>
-                 </div>
-
-                 </div> 
-                 <Menu_2/>
-                 <div>
-                 <Menu_3/>
-                 </div>
-                 <div>
-                 <Menu_4/>
-                 </div>
-                 <div>
-                 <Menu_5/>
-                 </div>
-                 <div>
-                 <Menu_6/>
-                 </div>
-                 <div>
-                 <Menu_7/>
-                 </div>
-          
-
-                 <br />
-
-               
-
-                <BpTwitte/>
-
-                
-
-                 <br />
-                 <br />
-                 <br />
-                 <br />
-                 <br />
-                 <br />
-                 <br />
-                 <br />
-                 <br />
-</div>
-</div>
-</div>
-
-   
+                  <Router>
+                       
     <div className='debut'>
- <div className="structure" >
+                <div>
+                    <div className='sb'>
+                         <div className='sc'>
+                 <Routes>
+                <Route path='/Explore' element={<Navbar/>} />
+                 </Routes> 
 
-     <div className="container"/>
+                            <Navbar/>
+             
+                 <br />
+                    <br />
+                         <br />
+                             <br />
+                                 <br />
+                                      <br />
+
+                                 <div class="glob">
+                                        <div class="sm">
+                        
+                                            <div>
+                                               <Basp/>
+                                             </div>
+            
+                                         </div>
+                                 </div>
+                       </div>
+              </div>
+            
+
+
+</div>
+   
+ 
+    <div className="structure" >
+              <div className="container"/>
 
         
-<h1 class="home">Home<Icons/></h1>
+                <h1 class="home">Home<Icons/></h1>
   
-    <div className="partie1">
-        <div className="text1">
-              <Img/>   
-        </div>
-    </div>
+                        <div className="partie1">
+                                <div className="text1">
+                                      <Img/>   
+                                 </div>
+                         </div>
     
-    <div class="partie2">
-        <div class="text2">
-              <Img1/>
-         </div>
-    </div>
+                                 <div class="partie2">
+                                       <div class="text2">
+                                          <Img1/>
+                                 </div>
+                        </div>
     <div class="partie3">
          <div class="text3">
               <Img2/> 
          </div>
     </div>
 
-    <div className="block">
-        <div className="partie4">
-              <Img3/> 
-        </div>
-     </div>
+                         <div className="block">
+                              <div className="partie4">
+                                   <Img3/> 
+                             </div>
+                         </div>
        
     <div className="tweet4">
         <div className='tex4'>
@@ -127,11 +103,11 @@ function App() {
      </div>
     </div>
 
-    <div className="tweet4">
-        <div className='tex4'>
-        <Img5/> 
-     </div>
-    </div>
+                              <div className="tweet4">
+                                    <div className='tex4'>
+                                       <Img5/> 
+                                     </div>
+                               </div>
 
     <div className="tweet4">
         <div className='tex4'>
@@ -139,33 +115,19 @@ function App() {
      </div>
     </div>
 
-    <div className="tweet4">
-        <div className='tex4'>
-        <Img7/> 
-     </div>
-    </div>
-
-
-
-    
-   
-
- 
-
-
-   
-
-
+                                 <div className="tweet4">
+                                        <div className='tex4'>
+                                            <Img7/> 
+                                         </div>
+                                 </div>
 
                      
-    </div>
-
-
-    </div>
+         </div>
+ </div>
 
    
              
-
+    </Router>
     </>
   )
 }

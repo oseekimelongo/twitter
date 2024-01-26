@@ -12,7 +12,7 @@ function Tweet (props){
                     <h4> 
                             Ttimes
 
-                            <Iconverfied/>
+                            <Iconverfied/>:
                     </h4>
 
                         <p>

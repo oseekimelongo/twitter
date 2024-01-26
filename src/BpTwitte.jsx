@@ -4,7 +4,7 @@ function Bptwitte (props){
 <div className="Bptwitte">
     
     <button> {props.button} </button>
-    <button type="submit" id="form_button_submit">Twitte</button>
+    <button  id="form_button_submit">Twitte</button>
 </div>         
         
         </>

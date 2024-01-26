@@ -8,7 +8,7 @@ function Img2 (props){
           <img src={"https://logowik.com/content/uploads/images/cnn-espanol7755.jpg"} />
           </div>
           <div>
-          <h2>The news york<Iconverfied/></h2>
+          <h2>The news york<Iconverfied/>:</h2>
           <p> Cette région s'étend sur quatre États New York, 
                                   New Jersey, Connecticut, Pennsent plutôt rares à 
                                    Bruxelles, le Hip-Hop était loin de la

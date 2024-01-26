@@ -1,4 +1,4 @@
-function Profil (props){
+function srofil (props){
     return (
         <>
 
@@ -18,4 +18,4 @@ function Profil (props){
     )
 }
 
-export default Profil;
+export default srofil;

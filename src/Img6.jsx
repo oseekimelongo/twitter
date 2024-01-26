@@ -11,7 +11,7 @@ function Img6 (props){
           <div>
                     <h4> 
                             Ttimes
-                            <Iconverfied/>
+                            <Iconverfied/>:
                     </h4>
 
                         <p>

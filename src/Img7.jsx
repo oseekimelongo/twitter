@@ -6,12 +6,9 @@ function Img7 (props){
         <>
         <div className="div4">
     <h5>
-
-Ttimes
-
-<Iconverfied/>
-
-</h5>
+        Ttimes
+        <Iconverfied/>:
+    </h5>
 
  <p className="text4">
 
@@ -23,7 +20,7 @@ Ttimes
             courant de 1991, explique Rival membre fondateur
            du groupe bruxellois. Mon idée, c’était de créer
              un groupe autour de ma bande de potes, on était 
-           
+
  </p>
 
 

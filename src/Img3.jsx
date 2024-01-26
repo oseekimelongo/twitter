@@ -7,7 +7,7 @@ function Img3 (props){
         <div className="div4">
     <h5>
 
-The news york times <Iconverfied/>
+The news york times <Iconverfied/>:
 
 </h5>
 

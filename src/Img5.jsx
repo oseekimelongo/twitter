@@ -10,7 +10,8 @@ function Img5 (props){
 
           <div>
                     <h4> 
-                            Ttimes<Iconverfied/>
+                            Ttimes
+                            <Iconverfied/>:
                     </h4> 
 
                         <p>
